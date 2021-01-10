@@ -528,27 +528,12 @@ margin-bottom: 25px;
   border: 1px solid var(--accent-color);
 }
 
-.buttons .web {
-  width: 128px;
-}
 
-.buttons .app {
-  width: 145px;
-}
-
-.buttons .design {
-  width: 103px;
-}
-.buttons .marketing {
-  width: 130px;
-}
 .portfolio-card {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
- 
-
-/* 
+ /* 
   margin-left: -10px;
   margin-top: -10px;
   padding: 0; */
@@ -556,13 +541,10 @@ margin-bottom: 25px;
 
 .portfolio-card .item{
   flex-basis: calc(100% / 3 - 30px);
-  
   text-align: left;
   border: 1px solid #EEEEEE;
   background: #FFFFFF;
  
-
-
   /* padding: 10px; */
   /* Задаём всем элементам маржины слева и сверху */
   /* margin-left: 10px;
@@ -571,6 +553,9 @@ margin-bottom: 25px;
    */
 }
 
+.img-portfolio{
+  width: 100%;
+}
 .card-name{
   padding: 20px 24px;
 }
