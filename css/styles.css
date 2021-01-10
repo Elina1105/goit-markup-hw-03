@@ -29,19 +29,18 @@ ul {
 outline: 2px solid tomato;
  }
 
+ 
+
+
+
 /* Шапка сайту  */
 .page-header {
-
-  padding-top: 24px;
-  padding-bottom: 25px;
   display: flex;
-align-items: center;
-height: 80px;
+  align-items: center;
+  background: #ffffff;  
+}
 
-}
-.container.header{
-  background: var(--primary-text-color);
-}
+
 
 /* Навігація сайту. Логотип */
 
@@ -180,7 +179,7 @@ height: 80px;
 
 .container.features{
   display: flex;
-  background: #E5E5E5;
+  background: #ffffff;
  
  }
 .visually-hidden {
@@ -395,7 +394,16 @@ margin-bottom: 9px;
   display: flex;
   align-self: center;
   background: white;
+
  
+}
+
+.container.header-portfolio{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 215px;
+  padding-left: 215px;
+  background: white;
 }
 
 /* Навігація сайту */
@@ -408,8 +416,6 @@ margin-bottom: 9px;
   /* identical to box height */
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-top: 24px;
-  margin-bottom: 25px;
   margin-right: 93px;
 }
 
@@ -430,8 +436,7 @@ margin-bottom: 9px;
   text-decoration: none;
   cursor: pointer;
   margin-left: auto;
-  margin-top: 32px;
-  margin-bottom: 32px;
+
 }
 
 .item-portfolio:not(:last-child) {
@@ -452,8 +457,6 @@ margin-bottom: 9px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
   margin-left: auto;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .mail-portfolio {
@@ -467,17 +470,17 @@ margin-bottom: 9px;
   text-decoration: none;
 }
 /* Main portfolio */
-.content {
-  background:white;
-  border-top: 1px solid #ececec;
-  padding: 94px 215px;
-}
-
-
 
 /* Main portfplio */
 
 /* Кнопки  по сторінці портфоліо*/
+
+.container.portfolio{
+  border-top: 1px solid #ececec;
+  padding: 94px 215px;
+  background:white;
+}
+
 
 .buttons {
   display: flex;
@@ -543,7 +546,6 @@ margin-bottom: 9px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .portfolio-card .item{
@@ -555,10 +557,9 @@ margin-bottom: 9px;
   
 }
 
-
-
 .img-portfolio{
-  width: 100%;
+width: 100%;
+
 }
 .card-name{
   padding: 20px 24px;
@@ -588,12 +589,18 @@ margin-bottom: 9px;
 
 /* Footer portfolio */
 
+.container.footer-portfolio{
 
-.footer-portfolio{
-  padding-top: 60px;
+padding-top: 60px;
 padding-bottom: 60px;
+padding-right: 215px;
+padding-left: 215px;
+
 background: #2F303A;
 }
+
+
+
 /* <!-- Логотип в футері --> */
 .logo-footer-portfolio {
   text-decoration: none;
