@@ -25,16 +25,19 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
-  /* background:white; */
-outline: 2px solid tomato;
+  outline: 2px solid tomato;
+  display: flex;
+  align-items: center;
+  
  }
 
- 
+
 /* Шапка сайту  */
 .page-header {
   display: flex;
   align-items: center;
-  background: #ffffff;  
+  background:white;
+  align-items: center;
 }
 
 
