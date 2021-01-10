@@ -24,8 +24,9 @@ ul {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  /* padding: 0 15px; */
-  background:white;
+  padding: 0 15px;
+  /* background:white; */
+outline: 2px solid tomato;
  }
 
 /* Шапка сайту  */
@@ -481,8 +482,6 @@ margin-bottom: 25px;
   display: flex;
   margin-bottom: 50px;
   list-style:none;
-  
- 
 
 }
 .buttons .list{  
