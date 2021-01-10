@@ -239,13 +239,12 @@ padding-top: 94px;
 .work .lists {
   list-style: none;
   display: flex;
+  
 }
 
 .img:not(:last-child){
 margin-right: 30px;
 width: 100%;
-/* width: 370px;
-height: 294px; */
 }
 
 /* НАША КОМАНДА */
@@ -285,7 +284,11 @@ height: 294px; */
 }
 
 .card .foto{
-  margin-bottom: 30px;
+
+}
+.signature-foto{
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .team .list {
@@ -310,7 +313,6 @@ height: 294px; */
   font-size: 16px;
   line-height: 1, 18;
   text-align: center;
-  padding-bottom: 30px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -323,12 +325,12 @@ height: 294px; */
 display: flex;
 align-items: center;
 background: #2f303a;
- align-items: center; 
 }
 
 .footer-list {
   padding-top: 60px;
   padding-bottom: 60px;
+
 }
 
 .logo-footer:hover,
@@ -363,7 +365,6 @@ background: #2f303a;
   font-size: 14px;
   line-height: 1, 71;
   /* or 171% */
-
   letter-spacing: 0.03em;
   display: flex;
   flex-direction: column;
@@ -512,8 +513,7 @@ margin-bottom: 9px;
 
 .buttons .filter:hover,
 .buttons .filter:focus{
-  color:var(--totle-text-color);
-  
+  color:var(--totle-text-color); 
   border: 1px solid var(--accent-color);
 }
 
