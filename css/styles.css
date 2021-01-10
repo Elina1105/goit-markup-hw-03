@@ -24,15 +24,12 @@ ul {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  /* padding: 0 15px; */
+  padding: 0 15px;
   /* background:white; */
 outline: 2px solid tomato;
  }
 
  
-
-
-
 /* Шапка сайту  */
 .page-header {
   display: flex;
