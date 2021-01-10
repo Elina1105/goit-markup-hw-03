@@ -104,7 +104,7 @@ ul {
   color: var(--accent-color);
 }
 
-.header-nav {
+.header-link {
   display: flex;
   list-style: none;
   font-style: normal;
@@ -113,9 +113,10 @@ ul {
   line-height: 1, 19;
   letter-spacing: 0.02em;
   margin-left: auto;
+  
 }
 
-.header-nav .nav-mail {
+.header-link .link-mail {
   margin-left: auto;
   margin-right: 50px;
   text-decoration: none;
