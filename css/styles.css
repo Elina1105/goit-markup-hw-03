@@ -30,9 +30,8 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
  }
-
 
 /* Шапка сайту  */
 .header {
@@ -458,9 +457,6 @@ align-items: center;
   letter-spacing: 0.02em;
 }
 
-
-
-
 /* Навігація по авторизації портфоліо */
 
 .adress-link.number{
@@ -468,76 +464,53 @@ align-items: center;
 }
 
 
-/* Main portfolio */
+/* MAIN PORTFOLIO */
+
+
 
 /* Кнопки  по сторінці портфоліо*/
+/* Кнопки */
 
-.container.portfolio{
-  border-top: 1px solid #ececec;
-  padding: 94px 215px;
-  background:white;
+.section.portfolio{
+margin: 94px 0;
 }
-
 
 .buttons {
   display: flex;
   margin-bottom: 50px;
   list-style:none;
+  justify-content:center;
 
 }
-.buttons .list{  
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1, 62;
-  letter-spacing: 0.03em;
-  border-radius: 4px;
-  text-align: center;
 
-}
-.buttons .list:not(:last-child){
+.button-list:not(:last-child){
   margin-right: 8px;
 }
 
-
-.buttons .all {
-  
-  display: inline-block;
+.button{
   padding: 6px 22px;
-  border: 1px solid transparent;
+  cursor:pointer;
   border-radius: 4px;
-  min-width: 73px;
-  color: var(--primary-text-color);
-  background: var(--accent-color);
-  border-color: var(--accent-color);
-  outline: none;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-color: transparent;
+  color: #212121;
+  background-color: #F5F4FA;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.buttons .all:hover,
-.buttons .all:focus{
-  color:var(--primary-text-color);
-  background: var(--accent-color);
-  border: 1px solid var(--accent-color);
+.button:hover,
+.button:focus{
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-
-.buttons .filter {
-  background: #f5f4fa;
-  display: inline-block;
-  padding: 6px 22px;
-  border: 1px solid transparent;
-  min-width: 73px;
-  color:var(--totle-text-color) ;
-  border-radius: 4px;
-}
-
-.buttons .filter:hover,
-.buttons .filter:focus{
-  color:var(--totle-text-color); 
-  border: 1px solid var(--accent-color);
-}
-
+/* КАРТКИ */
 
 .portfolio-card {
   list-style: none;
@@ -550,7 +523,8 @@ align-items: center;
   text-align: left;
   border: 1px solid #EEEEEE;
   background: #FFFFFF;
-  margin-right: 25px;
+  margin-right: 30px;
+  margin-bottom: 30px;
   
 }
 
@@ -600,34 +574,4 @@ background: #2F303A;
 }
 
 
-/* <!-- Логотип в футері --> */
-.logo-footer-portfolio {
-  text-decoration: none;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1, 19;
-  letter-spacing: 0.03em;
- margin-bottom: 20px;
-}
 
-.footer-portfolio .web {
-  color: var(--accent-color);
-}
-
-.footer-portfolio .studio {
-  color: var(--primary-text-color);
-}
-/* Адреси в футері */
-
-.footer-portfolio .footer-adress {
-  margin-top: 0px;
-  margin-bottom: 9px;
-}
-
-.footer-portfolio .mail {
-  margin-top: 0px;
-  margin-bottom: 9px;
-}
-
-.footer-portfolio .telephon;
