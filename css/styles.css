@@ -31,7 +31,6 @@ ul {
   margin-right: auto;
   padding: 0 15px;
   outline: 2px solid tomato;
-  
  }
 
 
@@ -45,6 +44,7 @@ ul {
 .header .container {
   display: flex;
 }
+
 .page-header{
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@ ul {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 93px;
-  display: flex;
+
 }
 
 .logo-header:hover,
@@ -74,7 +74,8 @@ ul {
   color: var(--totle-text-color);
 }
 
-/* Посилання */
+/* ПОСИЛАННЯ */
+
 .site-nav.list {
   display: flex;
 
@@ -114,7 +115,7 @@ ul {
   color: var(--accent-color);
 }
 
-/* Посилання */
+/* Навігація по авторизації портфоліо */
 
 .header-link {
   display: flex;
@@ -215,7 +216,6 @@ display: flex;
   letter-spacing: 0,03em;
   list-style: none;
   padding-bottom: 94px;
-
 }
 
 .skills:not(:last-child){
@@ -340,9 +340,9 @@ padding-bottom: 30px;
 
 /* Логотип */
 footer{
-background: #2F303A;
-padding-top: 60px;
-padding-bottom: 60px;
+  background: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-list {
@@ -407,19 +407,13 @@ align-items: center;
 
 /*  Шапка сайту  */
 
-
-.page-portfolio {
- 
-  display: flex;
-  align-self: center;
-  background: white;
+.header.border{
+  border-bottom: 2px solid #f5f4fa;
 }
 
-.container.header-portfolio{
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-right: 215px;
-  padding-left: 215px;
+.page-portfolio {
+  display: flex;
+  align-items: center;
   background: white;
 }
 
@@ -436,7 +430,24 @@ align-items: center;
   margin-right: 93px;
 }
 
-/* Посилання */
+/* ПОСИЛАННЯ */
+
+.site-nav.portfolio {
+  display: flex;
+
+  list-style: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 19;
+  letter-spacing: 0.02em;
+ 
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .site-nav .link {
   color: var(--totle-text-color);
   font-family: Roboto;
@@ -447,48 +458,17 @@ align-items: center;
   letter-spacing: 0.02em;
 }
 
-.site-nav.portfolio {
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  cursor: pointer;
-  margin-left: auto;
 
-}
 
-.item-portfolio:not(:last-child) {
-  margin-right: 50px;
-}
 
-.site-nav .studio:hover,
-.site-nav .studio:focus {
-  color: var(--accent-color);
-}
 /* Навігація по авторизації портфоліо */
-.portfolio-link {
-  display: flex;
-  list-style: none;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1, 14;
-  letter-spacing: 0.02em;
-  margin-left: auto;
+
+.adress-link.number{
+  color: #757575;
 }
 
-.mail-portfolio {
-  color: var(--other-text-color);
-  text-decoration: none;
-  margin-right: 50px;
-}
 
-.tel-portfolio {
-  color: var(--other-text-color);
-  text-decoration: none;
-}
 /* Main portfolio */
-
-/* Main portfplio */
 
 /* Кнопки  по сторінці портфоліо*/
 
@@ -604,8 +584,11 @@ width: 100%;
   margin-bottom: 0px;
 }
 
-/* Footer portfolio */
+/* FOOTER PORTFOLIO */
 
+.header .border{
+  border-bottom: 2px solid #f5f4fa;
+}
 .container.footer-portfolio{
 
 padding-top: 60px;
@@ -615,7 +598,6 @@ padding-left: 215px;
 
 background: #2F303A;
 }
-
 
 
 /* <!-- Логотип в футері --> */
