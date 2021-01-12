@@ -507,7 +507,7 @@ margin: 94px 0;
 .button:focus{
   color: var(--white-text-color);
   background-color: var(--accent-color);
-   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* КАРТКИ */
@@ -528,13 +528,16 @@ margin: 94px 0;
   
 }
 
+.portfolio-card .item:nth-last-child(-n+3){
+  margin-right: 0px;
+}
+
+
 .img-portfolio{
 width: 100%;
-
 }
 .card-name{
   padding: 20px 24px;
-  
 }
 
 .portfolio-card .title {
