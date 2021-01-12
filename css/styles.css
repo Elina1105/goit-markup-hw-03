@@ -520,29 +520,14 @@ margin: 94px 0;
 }
 
 .portfolio-card .item{
-  border: 1px solid #EEEEEE;
-  /* margin-right: 20px; */
+
+  margin-right: 10px;
   margin-bottom: 30px;
 }
-
-
-
-
 
 .item-link{
   display: block;
 }
-
-/* .portfolio-card .item:nth-last-child(-n+3){
-  margin-right: 0px;
-} */
-
-
-.portfolio-card .item:nth-child ( - n + 3 ){
-  margin-right: 0px;
-}
-
-
 
 
 .img-portfolio{
@@ -551,6 +536,7 @@ display: block;
 }
 .card-name{
   padding: 20px 24px;
+  border: 1px solid #EEEEEE;
 }
 
 .portfolio-card .title {
