@@ -516,16 +516,21 @@ margin: 94px 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  flex-basis: calc(100%/3-30px);
 }
 
 .portfolio-card .item{
-  flex-basis: calc(100% / 3 - 30px);
-  text-align: left;
   border: 1px solid #EEEEEE;
-  background: #FFFFFF;
-  margin-right: 30px;
+  /* margin-right: 20px; */
   margin-bottom: 30px;
-  
+}
+
+
+
+
+
+.item-link{
+  display: block;
 }
 
 /* .portfolio-card .item:nth-last-child(-n+3){
@@ -542,6 +547,7 @@ margin: 94px 0;
 
 .img-portfolio{
 width: 100%;
+display: block;
 }
 .card-name{
   padding: 20px 24px;
