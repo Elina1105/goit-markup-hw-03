@@ -469,7 +469,6 @@ align-items: center;
 /* MAIN PORTFOLIO */
 
 
-
 /* Кнопки  по сторінці портфоліо*/
 /* Кнопки */
 
@@ -529,9 +528,9 @@ margin: 94px 0;
   
 }
 
-.portfolio-card .item:nth-last-child(-n+3){
+/* .portfolio-card .item:nth-last-child(-n+3){
   margin-right: 0px;
-}
+} */
 
 
 .img-portfolio{
