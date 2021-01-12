@@ -533,6 +533,13 @@ margin: 94px 0;
 } */
 
 
+.portfolio-card .item:nth-child ( - n + 3 ){
+  margin-right: 0px;
+}
+
+
+
+
 .img-portfolio{
 width: 100%;
 }
