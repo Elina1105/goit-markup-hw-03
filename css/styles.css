@@ -516,19 +516,17 @@ margin: 94px 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(100%/3-30px);
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .portfolio-card .item{
-
-  margin-right: 10px;
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 
 .item-link{
   display: block;
 }
-
 
 .img-portfolio{
 width: 100%;
